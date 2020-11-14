@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KPK</title>
+</head>
+<body>
+    
+
+    <!-- Javascript dimulai dari sini -->
+    <script>
+        // Kita Perlu 3 Variable , yaitu A sebagai input 1 , B sebagai Input 2 , dan I Sebagai Perulangan
+
+        let i;
+        let a = prompt('Angka Pertama');
+        let b = prompt('Angka Kedua');
+        let hasil;
+
+        if (a > b) {
+                i = a;
+                a = b;
+                b = i;
+        }
+           
+        for (i = b; i % a != 0 || i % b != 0; i++);
+        hasil = i;
+        
+
+        alert('KPK Angka Pertama dan Kedua adalah '+ i); 
+
+
+    </script>
+
+
+</body>
+</html>
